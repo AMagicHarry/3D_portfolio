@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-import { FOOTER_DATA } from "@/constants";
+// import { FOOTER_DATA } from "@/constants";
 
 export const Footer = () => {
   return (
     <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]">
       <div className="w-full flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
-          {FOOTER_DATA.map((column) => (
+          {/* {FOOTER_DATA.map((column) => (
             <div
               key={column.title}
               className="min-w-[200px] h-auto flex flex-col items-center justify-start"
@@ -26,11 +26,11 @@ export const Footer = () => {
                 </Link>
               ))}
             </div>
-          ))}
+          ))} */}
         </div>
 
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; John Doe {new Date().getFullYear()} Inc. All rights reserved.
+          &copy; Tomas Edwen {new Date().getFullYear()} Inc. All rights reserved.
         </div>
       </div>
     </div>

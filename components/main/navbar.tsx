@@ -20,7 +20,7 @@ export const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           />
           <div className="font-bold ml-[10px] hidden md:block text-gray-300">
-            John Doe
+            Tomas Edwen
           </div>
         </Link>
 
@@ -49,7 +49,7 @@ export const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          {SOCIALS.map(({ link, name, icon: Icon }) => (
+          {/* {SOCIALS.map(({ link, name, icon: Icon }) => (
             <Link
               href={link}
               target="_blank"
@@ -58,7 +58,7 @@ export const Navbar = () => {
             >
               <Icon className="h-6 w-6 text-white" />
             </Link>
-          ))}
+          ))} */}
         </div>
       </div>
     </div>
